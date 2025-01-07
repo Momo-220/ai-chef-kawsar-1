@@ -80,10 +80,10 @@ class CuisineBot {
             suggestionContainer.querySelectorAll('.suggestion-pill').forEach(pill => {
                 pill.addEventListener('click', () => {
                     const query = pill.dataset.query;
-                    this.userInput.value = query;
-                    this.handleUserInput();
-                });
+                this.userInput.value = query;
+                this.handleUserInput();
             });
+        });
         }
     }
 

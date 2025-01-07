@@ -1,0 +1,22 @@
+{
+  "name": "Chef Kawsar - Assistant Culinaire",
+  "short_name": "Chef Kawsar",
+  "description": "Votre assistante culinaire personnelle, disponible 24/7",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F5F5DC",
+  "theme_color": "#8B4513",
+  "icons": [
+    {
+      "src": "assets/logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/logo-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+} 

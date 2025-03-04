@@ -165,7 +165,7 @@ class CuisineBot {
                 throw new Error('Clé API manquante');
             }
 
-            const response = await fetch(`https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent?key=${apiKey}`, {
+            const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`, {
                 method: 'POST',
                 signal,
                 headers: {

@@ -1,5 +1,5 @@
 const CONFIG = {
-    GEMINI_API_KEY: 'AIzaSyBGWbgv--fopgyiJvv6_qPB3RM83PR7WVg'
+    GEMINI_API_KEY: 'AIzaSyC983OdnL9rtTLKO6F37agUod0v3D9PZ-c'
 };
 
 // Ne pas modifier cette ligne
